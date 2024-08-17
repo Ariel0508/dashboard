@@ -1,0 +1,28 @@
+.success-hover:hover {
+    color: $success;
+}
+
+.modal-img {
+    width: 160px;
+    height: 160px;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+#toggle-arrow:checked + label .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.collapse {
+    transition: height 0.3s ease-in-out;
+}
+
+.ml-153 {
+    margin-left: 153px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}

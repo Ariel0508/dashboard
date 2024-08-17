@@ -1,0 +1,13 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.content {
+    width: calc(100% - 296px);
+    margin-left: auto;
+}
+
+.icon.dropdown-toggle::after {
+    display: block;
+    margin-left: 8px;
+}
